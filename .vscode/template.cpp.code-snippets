@@ -1,0 +1,28 @@
+{
+	// Place your CPfolder workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Template": {
+		"prefix": [
+			"cpptemp",
+			"file-template"
+		],
+		"body": [
+			"#include <bits\/stdc++.h>\r\nusing namespace std;\r\ntypedef long long ll;\r\ntypedef vector<int> vi;\r\ntypedef pair<int, int> ii;\r\ntypedef vector<ii> vii;\r\n#define INF 1000000000\r\n#define debug3(v1, v2, v3) cout << v1 << \" \" << v2 << \" \" << v3 << \"\\n\";\r\n#define debug2(index, value) cout << index << \" \" << value << \"\\n\";\r\n#define debug1(value) cout << value << \"\\n\";\r\n#define openfile(string1, string2) \\\r\n    freopen(string1, \"r\", stdin);  \\\r\n    freopen(string2, \"w\", stdout);\r\nusing namespace std;\r\n\r\nvoid solve()\r\n{\r\n}\r\n\r\nint main()\r\n{\r\n    ios_base::sync_with_stdio(false);\r\n    cin.tie(NULL);\r\n    openfile(\"input.txt\", \"output.txt\");\r\n\r\n    solve();\r\n\r\n    return 0;\r\n}"
+		],
+		"description": "c++ template contest"
+	}
+}

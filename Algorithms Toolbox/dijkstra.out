@@ -1,0 +1,6 @@
+minDist(1 -> 1): 0
+ minDist(1 -> 2): 10
+ minDist(1 -> 3): 10
+ minDist(1 -> 4): 30
+ minDist(1 -> 5): 100000
+ 
